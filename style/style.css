@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contener{
+    height: 100vh;
+    width: 100%;
+    background-color: #e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colculator{
+    padding: 20px;
+   background-color: #3a4452;
+    border-radius: 10px;
+}
+.colculator form input{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    box-shadow: 10px 10px 10px 15px  yellow;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+
+}
+form input.equal{
+    width: 145px;
+}
